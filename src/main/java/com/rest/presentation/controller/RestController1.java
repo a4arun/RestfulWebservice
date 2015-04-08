@@ -131,6 +131,11 @@ public class RestController1 {
 
     }
 
+    /**
+     *
+     * @param requestDTO
+     * @return
+     */
     private HttpStatus getHttpStatus(RequestDTO requestDTO) {
 
         if (requestDTO != null) {
